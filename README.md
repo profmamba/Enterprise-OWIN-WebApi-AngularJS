@@ -8,4 +8,4 @@ First off, as with all open projects this is a work in progress. It is a port of
 
 * Scalable, secure enterprise scaffolding for new SPA and WebApi projects
 * Get familiar with new OWIN / Katana concepts
-* Have an open, interchangeable repo system that is NOT SQL (for once)
+* Have an open, interchangeable data context / repository system (implemented Mongo as first repo)

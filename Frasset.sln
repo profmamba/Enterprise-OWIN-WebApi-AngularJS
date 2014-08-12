@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{755A09CB-D148-4C97-BAC9-824CD4D5860F}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Acutela.Frasset.snk = Solution Items\Acutela.Frasset.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{212960A2-F5A5-423E-9F10-36330FF90C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Objects", "Objects\Objects.csproj", "{FD99A6C3-550B-46CA-9151-2DF3D7C23D1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A49CAF9C-87A0-49EF-A071-C84D6F36EB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{F6F027D3-B198-4689-B437-25DCB8FF46ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contexts", "Contexts\Contexts.csproj", "{C9104467-BE18-4D0B-9A33-BCAD4D5ECDC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{FD1AFB18-4CA9-44CF-BB55-45351A01803B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{1826B57F-D009-4977-91BB-E59FC25076F1}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Postman\Frasset Api.json = Solution Items\Postman\Frasset Api.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{212960A2-F5A5-423E-9F10-36330FF90C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212960A2-F5A5-423E-9F10-36330FF90C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212960A2-F5A5-423E-9F10-36330FF90C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212960A2-F5A5-423E-9F10-36330FF90C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD99A6C3-550B-46CA-9151-2DF3D7C23D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD99A6C3-550B-46CA-9151-2DF3D7C23D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD99A6C3-550B-46CA-9151-2DF3D7C23D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD99A6C3-550B-46CA-9151-2DF3D7C23D1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49CAF9C-87A0-49EF-A071-C84D6F36EB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49CAF9C-87A0-49EF-A071-C84D6F36EB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49CAF9C-87A0-49EF-A071-C84D6F36EB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49CAF9C-87A0-49EF-A071-C84D6F36EB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F027D3-B198-4689-B437-25DCB8FF46ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F027D3-B198-4689-B437-25DCB8FF46ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F027D3-B198-4689-B437-25DCB8FF46ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F027D3-B198-4689-B437-25DCB8FF46ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9104467-BE18-4D0B-9A33-BCAD4D5ECDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9104467-BE18-4D0B-9A33-BCAD4D5ECDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9104467-BE18-4D0B-9A33-BCAD4D5ECDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9104467-BE18-4D0B-9A33-BCAD4D5ECDC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1AFB18-4CA9-44CF-BB55-45351A01803B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1AFB18-4CA9-44CF-BB55-45351A01803B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1AFB18-4CA9-44CF-BB55-45351A01803B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1AFB18-4CA9-44CF-BB55-45351A01803B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1826B57F-D009-4977-91BB-E59FC25076F1} = {755A09CB-D148-4C97-BAC9-824CD4D5860F}
+	EndGlobalSection
+EndGlobal

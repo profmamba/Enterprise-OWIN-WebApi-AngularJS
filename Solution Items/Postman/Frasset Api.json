@@ -1,0 +1,145 @@
+{
+	"id": "fa77f50f-4984-bb58-78d7-9eb3e884e243",
+	"name": "Frasset Api",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "f790bd96-b4dc-c038-8fa5-661de40a4a42",
+			"name": "Account",
+			"description": "",
+			"order": [
+				"272d7d85-7d51-15b0-2aa1-d40dffcf918e",
+				"2787761c-8fa1-33ef-1e9b-a4363afefa07",
+				"aa8b66cd-fe3a-86a3-7fa5-460fd846700e"
+			],
+			"collection_name": "Frasset Api",
+			"collection_id": "fa77f50f-4984-bb58-78d7-9eb3e884e243"
+		},
+		{
+			"id": "d2649682-4feb-9f02-e40a-5a1ffe54c2f4",
+			"name": "Diagnostics",
+			"description": "",
+			"order": [
+				"14529f85-5a0f-7529-dca5-7e2f1654e503"
+			],
+			"collection_name": "Frasset Api",
+			"collection_id": "fa77f50f-4984-bb58-78d7-9eb3e884e243"
+		}
+	],
+	"timestamp": 1407277203892,
+	"synced": false,
+	"requests": [
+		{
+			"id": "14529f85-5a0f-7529-dca5-7e2f1654e503",
+			"headers": "",
+			"url": "localhost:5432/diagnostics/ping",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "GET",
+			"data": [],
+			"dataMode": "urlencoded",
+			"name": "Diagnostics/Ping",
+			"description": "Ping the server - expect 204",
+			"descriptionFormat": "html",
+			"time": 1407475497548,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "fa77f50f-4984-bb58-78d7-9eb3e884e243",
+			"synced": false
+		},
+		{
+			"collectionId": "fa77f50f-4984-bb58-78d7-9eb3e884e243",
+			"id": "272d7d85-7d51-15b0-2aa1-d40dffcf918e",
+			"name": "Account/Confirm",
+			"description": "Confirm a new account",
+			"url": "localhost:5432/account/confirm",
+			"method": "POST",
+			"headers": "",
+			"data": [
+				{
+					"key": "userid",
+					"value": "a81ca5a0-4c79-4e6a-ad6b-a2c7e82cf883",
+					"type": "text"
+				},
+				{
+					"key": "confirmationToken",
+					"value": "AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAg+2XWRzwoUGp//ScrrOccwAAAAACAAAAAAADZgAAwAAAABAAAADCsPZvWMYTT9x/6/4rEjqfAAAAAASAAACgAAAAEAAAALPcmSjZ8sxx9T8VRLapjltgAAAAQlsvZpPLTbVBa+p3ZnqCO0jrJwuY30hHbn2kUeS8wyAPMAMrFuXrEuQAusdtuU60F80YTUBWIpsN9rSyQbfLLWZUIGyy8P6x+hUCS7ABL7592hXuYvJhPkVe6+eB3H/EFAAAABTqB0af0BESoz5K0hfNoj5SqnDA ",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2,
+			"synced": false
+		},
+		{
+			"collectionId": "fa77f50f-4984-bb58-78d7-9eb3e884e243",
+			"id": "2787761c-8fa1-33ef-1e9b-a4363afefa07",
+			"name": "Account/Register",
+			"description": "",
+			"url": "localhost:5432/account/register",
+			"method": "POST",
+			"headers": "",
+			"data": [
+				{
+					"key": "email",
+					"value": "your@email.com",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "@Password123",
+					"type": "text"
+				},
+				{
+					"key": "confirmpassword",
+					"value": "@Password123",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"timestamp": 0,
+			"responses": [],
+			"version": 2,
+			"synced": false
+		},
+		{
+			"id": "aa8b66cd-fe3a-86a3-7fa5-460fd846700e",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"url": "localhost:5432/account/token",
+			"pathVariables": {},
+			"preRequestScript": "",
+			"method": "POST",
+			"data": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"type": "text"
+				},
+				{
+					"key": "username",
+					"value": "your@email.com",
+					"type": "text"
+				},
+				{
+					"key": "password",
+					"value": "@Password123",
+					"type": "text"
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "Account/Token",
+			"description": "Login",
+			"descriptionFormat": "html",
+			"time": 1407387096863,
+			"version": 2,
+			"responses": [],
+			"tests": "",
+			"collectionId": "fa77f50f-4984-bb58-78d7-9eb3e884e243",
+			"synced": false
+		}
+	]
+}

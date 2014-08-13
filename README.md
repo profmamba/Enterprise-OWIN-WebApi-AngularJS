@@ -47,7 +47,7 @@ The current simplified n-tier stack is *MongoDB > Owin/Katana WebApi 2 > Angular
 
 ###Architecture
 
-The stack uses many enterprise architecure concepts, as well as following good [SOLID principals[(en.wikipedia.org/wiki/SOLID_(object-oriented_design)). Technically there is no right way, but there are many wrong ways - which is what you try to avoid at all costs.
+The stack uses many enterprise architecure concepts, as well as following good [SOLID principals](en.wikipedia.org/wiki/SOLID_(object-oriented_design)). Technically there is no right way, but there are many wrong ways - which is what you try to avoid at all costs.
 
 ####Objects
 Lightweight POCO business objects, *with no data annotations* so they are completely reusable by any modern ORM. These objects are *not* [anemic](http://en.wikipedia.org/wiki/Anemic_domain_model), but they do not contain any complex interaction with other objects (which is the job of the Logic layer).

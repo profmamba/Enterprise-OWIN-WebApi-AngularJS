@@ -39,9 +39,10 @@ First off, as with all open projects this is a work in progress. It is a port of
 ##Details
 
 The current simplified n-tier stack is *MongoDB > Owin/Katana WebApi 2 > AngularJS*. 
+
 ###Notes
 
-* The WebApi can be self hosted (no need for any flavour of IIS).
+* The WebApi can be self hosted (no need for any flavour of IIS). You have to roll the wrapper console app yourself though.
 * You could easily replace Mongo with any DB or store, and AngularJS with any SPA or MVC framework. 
 
 ###Architecture

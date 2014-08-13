@@ -4,7 +4,9 @@
 
 It *should* just work out of the box, **if you set the correct mail server in web.config.** You also have to **'Enable Nuget Package Restore' on the *Solution* and Rebuild**. Let me know if it doesn't work for you.
 
-Once you have the Solution running, you could just use 
+Once you have the Solution running, you could just use your favourite API testing tool to hit the API (like [Postman](http://www.getpostman.com/)). There's no AngularJS frontend yet. 
+
+Note: The entire API has been configured in Postman. Just import 'Solution Items/Postman/Frasset Api.json' in Postman and you should be good to go.
 
 ####Required:
 
